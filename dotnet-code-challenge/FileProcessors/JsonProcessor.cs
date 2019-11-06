@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using dotnet_code_challenge.Models;
+using dotnet_code_challenge.Model;
 using Microsoft.Extensions.Logging;
 
 namespace dotnet_code_challenge.FileProcessors

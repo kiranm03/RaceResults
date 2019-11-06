@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using dotnet_code_challenge.Models;
+using dotnet_code_challenge.Model;
 
 namespace dotnet_code_challenge.FileProcessors
 {

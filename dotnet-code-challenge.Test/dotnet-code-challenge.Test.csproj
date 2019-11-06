@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Folder Include="FileProcessors\" />
+    <Folder Include="Workers\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\dotnet-code-challenge\dotnet-code-challenge.csproj" />

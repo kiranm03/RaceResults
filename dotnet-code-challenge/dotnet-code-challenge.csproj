@@ -12,6 +12,7 @@
     <Folder Include="Model\" />
     <Folder Include="FileProcessors\" />
     <Folder Include="RacePicker\" />
+    <Folder Include="Util\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging" Version="3.0.0" />
