@@ -12,4 +12,7 @@
     <Folder Include="Models\" />
     <Folder Include="FileProcessors\" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.0.0" />
+  </ItemGroup>
 </Project>
