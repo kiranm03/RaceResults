@@ -1,5 +1,5 @@
 ﻿using System;
-namespace dotnet_code_challenge.Models
+namespace dotnet_code_challenge.Model
 {
     public class Horse
     {
