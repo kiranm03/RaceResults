@@ -48,7 +48,14 @@ namespace dotnet_code_challenge.Workers
 
         private void DisplayHorses(IEnumerable<Horse> horses)
         {
-            
+            if (!horses.Any())
+            {
+                Console.WriteLine("There are no Horses in given file");
+                return;
+            }
+
+            Console.WriteLine("Horse Name :: Horse Price");
+            Console.WriteLine("--------------------------");
             foreach (var horse in horses)
             {
                 Console.WriteLine($"{horse.Name} :: {horse.Price}");
